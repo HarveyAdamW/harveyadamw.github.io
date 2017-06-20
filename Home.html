@@ -1,7 +1,37 @@
 <!DOCTYPE html>
+
+<head>
+<style>
+  * {
+    padding: 0;
+    margin: 0;
+  }
+  .fit { /* set relative picture size */
+    max-width: 100%;
+    max-height: 100%;
+  }
+  .center {
+    display: block;
+    margin: auto;
+  }
+</style>
+</head>
+
 <html>
 <body>
-<img src="Images/archives_3c353_0.jpg" alt="3C353" style="width:304px;height:228px;">
+
+<img src="Images/archives_3c353_0.jpg" alt="3C353" class="center fit">
+
+<script src="http://code.jquery.com/jquery-latest.js"></script>
+<script type="text/javascript" language="JavaScript">
+  function set_body_height() { // set body height = window height
+    $('body').height($(window).height());
+  }
+  $(document).ready(function() {
+    $(window).bind('resize', set_body_height);
+    set_body_height();
+  });
+</script>
 
 </body>
 </html>
