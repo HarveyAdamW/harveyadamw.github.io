@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=latex 2017.4.4)  20 JUN 2017 13:00
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=latex 2017.4.4)  20 JUN 2017 14:14
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -7,8 +7,8 @@ de"##1"{\Link##1}\expandafter\HCode\else\expandafter\Link\fi}\def\Link#1.a.b.c.
 {\g@addto@macro\@documentclasshook{\RequirePackage[#1,html]{tex4ht}}\let\HCode\
 documentstyle\def\documentstyle{\let\documentstyle\HCode\expandafter\def\csname
  tex4ht\endcsname{#1,html}\def\HCode####1{\documentstyle[tex4ht,}\@ifnextchar[{
-\HCode}{\documentstyle[tex4ht]}}}\makeatother\HCode .a.b.c.\input  AdamHarveyCV
-.tex
+\HCode}{\documentstyle[tex4ht]}}}\makeatother\HCode xhtml,p-width.a.b.c.\input 
+ AdamHarveyCV.tex
 (./AdamHarveyCV.tex (/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
 (/usr/share/texlive/texmf-dist/tex/latex/base/size10.clo
@@ -410,9 +410,6 @@ version 2008-10-27-17:23
 
 (./AdamHarveyCV.tmp)
 \tmp:dim=\skip74
---------------------------------------
---- Note --- for XML code, use the command line option `xml' or `xhtml'
---------------------------------------
  (./AdamHarveyCV.xref)
 \:refout=\write3
 \openout3 = `AdamHarveyCV.xref'.
@@ -480,7 +477,7 @@ option `frames-fn'
 --------------------------------------
 --- Note --- for file extension name xht, use the command line option `xht'
 --------------------------------------
-TeX4ht package options: html
+TeX4ht package options: xhtml,p-width,html
 --------------------------------------
 --- Note --- to ignore CSS code, use the command line option `-css
 --------------------------------------
@@ -560,11 +557,6 @@ ommand line option `enumerate-'
 --------------------------------------
 --- Note --- for tracing of latex font commands, use the command line option `f
 onts'
---------------------------------------
---------------------------------------
---- Note --- for width specifications of tabular p entries, use the `p-width' c
-ommand line option or a configuration similar to \Configure{HColWidth}{\HCode{ 
-style="width:\HColWidth"}}
 --------------------------------------
 )
 (/usr/share/texmf/tex/generic/tex4ht/html4-math.4ht
@@ -962,13 +954,13 @@ Missing character: There is no “ in font cmbx10!
 Missing character: There is no â in font cmbx10!
 Missing character: There is no € in font cmbx10!
 Missing character: There is no “ in font cmbx10!
-Missing character: There is no â in font cmr10!
-Missing character: There is no € in font cmr10!
-Missing character: There is no ™ in font cmr10!
-Missing character: There is no â in font cmr10!
-Missing character: There is no € in font cmr10!
-Missing character: There is no ™ in font cmr10!
  [5]
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no ™ in font cmr10!
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no ™ in font cmr10!
 Missing character: There is no â in font cmr10!
 Missing character: There is no € in font cmr10!
 Missing character: There is no ™ in font cmr10!
@@ -990,12 +982,12 @@ Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 487.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 487.
  ) 
 Here is how much of TeX's memory you used:
- 11078 strings out of 493030
- 146812 string characters out of 6136261
- 369014 words of memory out of 5000000
- 14312 multiletter control sequences out of 15000+600000
+ 11085 strings out of 493030
+ 146865 string characters out of 6136261
+ 369391 words of memory out of 5000000
+ 14319 multiletter control sequences out of 15000+600000
  16155 words of font info for 60 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 37i,6n,35p,749b,506s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 37i,6n,35p,762b,506s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on AdamHarveyCV.dvi (9 pages, 31400 bytes).
+Output written on AdamHarveyCV.dvi (9 pages, 32016 bytes).
