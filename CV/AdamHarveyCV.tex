@@ -1,0 +1,487 @@
+\documentclass{article}
+
+% Any percent sign marks a comment to the end of the line
+
+% Every latex document starts with a documentclass declaration like this
+% The option dvips allows for graphics, 12pt is the font size, and article
+%   is the style
+
+%\usepackage{url}%Provides for including URLs in TeX documents. Pretty sure this is redundant with hyperref included. But I am just commenting it out just in case it does become necessary.
+\usepackage[margin=1in]{geometry}%Provides a flexible interface for page dimensions
+\usepackage{graphicx}% Include figure files
+\usepackage{dcolumn}% Align table columns on decimal point
+\usepackage{bm}% bold math
+\usepackage{natbib}%To use apsrev bibstyle
+\usepackage{hyperref}% add hypertext capabilities
+\usepackage{color}%For coloring text (mainly so that I can color text in drafts so that I don't forget to address things later).
+\usepackage{setspace}%For setting line spacing.
+\usepackage[multiple]{footmisc}%Package allows for more versatility in typesetting footnotes. multiple option allows for multiple footnotes at one point.
+\usepackage{titlesec}%Allows for manipulation of section titles.
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{vwcol}%For multiple columns.
+
+\setlength{\parskip}{0em}%parskip generally allows for stretching paragraph breaks to allow for formatting dependent on pagination. This sets the stretch length to zero for perfectly consistent paragraph spacing.
+
+\titlespacing*{\section}{0pt}{3ex}{2ex}
+
+\newcommand\norm[1]{\left\lVert#1\right\rVert}
+\newcommand\abs[1]{\left#1\right}
+\newcommand\diffd{\mathrm{d} }
+\newcommand{\fdr}[2]{\frac{\diffd #1}{\diffd #2} }
+\newcommand{\pdr}[2]{\frac{\mathrm{\partial } #1}{\mathrm{\partial } #2} }
+\newcommand\textal{\begin{adjustwidth}{1.5 em}{0 pt}}
+\newcommand\mathal{\begin{adjustwidth}{2.5 em}{2.5 em}}
+\newcommand\alend{\end{adjustwidth}}
+\newcommand\parb{\\*\\*}
+\newcommand\del{\bigtriangledown }
+\newcommand\limdz{\lim\limits_{\Delta z\rightarrow 0}}
+\newcommand\enot{\epsilon _{0}}
+\newcommand{\overbar}[1]{\mkern 1.5mu\overline{\mkern-1.5mu#1\mkern-1.5mu}\mkern 1.5mu}
+\def\dbar{{\mathchar'26\mkern-12mu d}}
+\newcommand\tld[1]{\widetilde{#1}}
+\newcommand\bdm[1]{\boldsymbol{#1}}
+\newcommand\nsp{\enspace }
+\newcommand\apjl{The Astrophysical Journal Letters}
+\newcommand\aap{Astronomy \& Astrophysics}
+\newcommand\mnras{Monthly Notices of the Royal Astronomical Society}
+\newcommand\araa{Annual Review of Astronomy and Astrophysics}
+\newcommand\aj{The Astronomical Journal}
+\newcommand\pasp{The Publications of the Astronomical Society of the Pacific}
+
+
+% These are additional packages for "pdflatex", graphics, and to include
+% hyperlinks inside a document.
+
+
+\begin{document}
+
+\singlespacing
+
+% Everything after this becomes content
+% Replace the text between curly brackets with your own
+
+
+\title{Adam Harvey}
+\author{aharvey1@umbc.edu}
+
+% You can leave out "date" and it will be added automatically for today
+% You can change the "\today" date to any text you like
+
+\maketitle
+%------------------------------------------------------------------%
+%------------------------------------------------------------------%
+%------------------------------------------------------------------%
+%-------------------   Education   ---------------------------%
+%------------------------------------------------------------------%
+%------------------------------------------------------------------%
+%------------------------------------------------------------------%
+\begin{vwcol}[widths={0.8,0.2}, sep=.8cm, justify=flush, rule=0pt, indent=0em]
+\noindent\textbf{EDUCATION}\\
+\textbf{University of Maryland, Baltimore County (UMBC)}\\
+PhD in Applied Physics\\
+MS in Applied Physics\\
+\\
+\textbf{Lewis \& Clark College (LC)}\\
+BA in Physics\\
+BA in Mathematics\\
+\newpage
+\phantom \\
+\noindent Baltimore, MD\\
+\emph{Expected}: May 2020\\
+\emph{Conferred}: May 2017\\
+\\
+\\
+Portland, OR\\
+\emph{Conferred}: May 2013\\
+\emph{Conferred}: May 2013
+\end{vwcol}
+\phantom \\
+%---------------------------------------------------------------------------------------%
+%---------------------------------------------------------------------------------------%
+%---------------------------------------------------------------------------------------%
+%-------------------   Professional Affiliations   ---------------------------%
+%---------------------------------------------------------------------------------------%
+%---------------------------------------------------------------------------------------%
+%---------------------------------------------------------------------------------------%
+\noindent \textbf{PROFESSIONAL AFFILIATIONS}:
+\begin{itemize}
+\item American Physical Society (sub-affiliations: Division of Astrophysics, Forum on Education, Forum on Graduate Student Affairs, Topical Group in Plasma Astrophysics, Mid-Atlantic Section)
+\end{itemize}
+\phantom \\
+%----------------------------------------------------------%
+%----------------------------------------------------------%
+%----------------------------------------------------------%
+%-------------------   Skills   ---------------------------%
+%----------------------------------------------------------%
+%----------------------------------------------------------%
+%----------------------------------------------------------%
+\noindent \textbf{SKILLS}: C/C++, R, Fortran, Python, Visual Basic Script, Visual Basic .NET, Mathematica, SQL, Bash, CMD, Power Shell, Android Studio and SDK, Windows Management Instrumentation, Dexter\\
+\noindent \textbf{OS}: Windows, Mac OS, Linux, Android, iOS\\
+\noindent \textbf{Publishing and Design}: LaTeX, Microsoft Office (Word, Excel, PowerPoint), Adobe Creative Cloud (Photoshop, Illustrator, InDesign)\\
+\noindent \textbf{Languages}: Japanese\\
+\newline 
+\par 
+%----------------------------------------------------------------------------------%
+%----------------------------------------------------------------------------------%
+%----------------------------------------------------------------------------------%
+%-------------------   Research Experience   ---------------------------%
+%----------------------------------------------------------------------------------%
+%----------------------------------------------------------------------------------%
+%----------------------------------------------------------------------------------%
+\noindent \textbf{RESEARCH EXPERIENCE}:\\
+\begin{vwcol}[widths={0.8,0.2}, sep=.8cm, justify=flush, rule=0pt, indent=0em]
+\noindent \textbf{Blazar Study–Researcher under PhD Advisor (February 2016-Present)}
+\newpage
+\noindent \textbf{UMBC Physics Dept}
+\end{vwcol}
+\phantom \\
+\begin{itemize}
+\item Worked on fitting of blazar spectral energy distributions using various methods, currently using a simulated annealing code in Fortran
+\item Wrote multiple programs (using both Fortran and R) to enable good visualization of likelihood function to assist in fitting
+\item Edited previously written statistical error analysis code to account for multiple common outlying cases
+\item Read and discussed with my advisor multiple literature reviews
+\item Independently read dozens of published papers in detail to better understand current ideas and models
+\end{itemize}
+\phantom \\
+\phantom \\
+%
+%
+%
+%
+\begin{vwcol}[widths={0.8,0.2}, sep=.8cm, justify=flush, rule=0pt, indent=0em]
+\noindent \textbf{Curved Motion Model – Sole Researcher (August 2011-December 2011)}
+\newpage
+\noindent \textbf{LC Physics Dept}
+\end{vwcol}
+\phantom \\
+\begin{itemize}
+\item Wrote a one-page proposal of the project for consideration by a physics faculty member
+\item Modeled a body moving around a curve as a function of curvature, implementing fluid dynamics and friction
+\item Analyzed results using Wolfram Mathematica to understand dependence of time-efficiency on radius of curvature, assuming no slipping of the body
+\item Reported methods and findings in a six-page paper and presented findings to Lewis \& Clark College Physics Department in a half-hour long presentation
+\end{itemize}
+\phantom \\
+\phantom \\
+%
+%
+%
+%
+\begin{vwcol}[widths={0.8,0.2}, sep=.8cm, justify=flush, rule=0pt, indent=0em]
+\noindent \textbf{Spectrometer – Independent Project (April 2011)}
+\newpage
+\noindent \textbf{LC Physics Dept}
+\end{vwcol}
+\phantom \\
+\begin{itemize}
+\item Built a basic spectrometer on an optics table using a series of lenses and diffraction gratings feeding into a CCD
+\item Use spectrometer to create an image of the spectrum of unionized hydrogen
+\item Presented completed project using PowerPoint to a class of about twelve students and a professor and showed them the spectrometer and demonstrated its use
+\item Wrote a one-page paper describing my methods and results
+\end{itemize}
+\phantom \\
+\phantom \\
+%
+%
+%
+%
+\begin{vwcol}[widths={0.8,0.2}, sep=.8cm, justify=flush, rule=0pt, indent=0em]
+\noindent \textbf{Error in Taylor Series– Researcher Under Professor (November 2010-December 2010)}
+\newpage
+\noindent \textbf{LC Math Dept}
+\end{vwcol}
+\phantom \\
+\begin{itemize}
+\item Using Wolfram Mathematica, approximated the evolution of the error of a Taylor series as it changes with increasing order at which the series is truncated
+\item Implemented graphs of error as a function of order of truncation to aid in visualization of error evolution
+\item Reported methods and findings in a three-page paper
+\end{itemize}
+\phantom \\
+\phantom \\
+%
+%
+%
+%
+\par
+\phantom \\
+\phantom \\
+%----------------------------------------------------------------------------%
+%----------------------------------------------------------------------------%
+%----------------------------------------------------------------------------%
+%-------------------   Industry Projects   ---------------------------%
+%----------------------------------------------------------------------------%
+%----------------------------------------------------------------------------%
+%----------------------------------------------------------------------------%
+\noindent \textbf{INDUSTRY PROJECTS}: \\
+\begin{vwcol}[widths={0.8,0.2}, sep=.8cm, justify=flush, rule=0pt, indent=0em]
+\noindent \textbf{Inventory Management System – Co-Developer (August 2014-January 2015)}
+\newpage
+\noindent \textbf{Vancouver Bolt \& Supply}
+\end{vwcol}
+\phantom \\
+\begin{itemize}
+\item Developed a script written in VBScript meant to run on a dedicated machine to track inventory vended to customers by Vancouver Bolt \& Supply, Inc.
+\item Worked with potential users of system to tailor development to their needs
+\item Integrated script to work with proprietary software used on an Android based tablet
+\item Developed a method to populate a database with information from the proprietary software
+\item Developed a method of security in use of software to ensure proper use of software and to reliably identify users
+\end{itemize}
+\phantom \\
+\phantom \\
+%
+%
+%
+%
+\par
+\phantom \\
+\phantom \\
+%----------------------------------------------------------------------------------%
+%----------------------------------------------------------------------------------%
+%----------------------------------------------------------------------------------%
+%-------------------   Teaching Experience   ---------------------------%
+%----------------------------------------------------------------------------------%
+%----------------------------------------------------------------------------------%
+%----------------------------------------------------------------------------------%
+\noindent \textbf{TEACHING EXPERIENCE}:\\
+\begin{vwcol}[widths={0.8,0.2}, sep=.8cm, justify=flush, rule=0pt, indent=0em]
+\noindent \textbf{Teaching Assistant (August 2015-Present)}
+\newpage
+\noindent \textbf{UMBC Physics Dept}
+\end{vwcol}
+\phantom \\
+\begin{itemize}
+\item Designed lab curriculum and policies for 1 introductory algebra-based physics lab
+\item Taught 2 introductory calculus-based physics discussion sections of 30 students each for 1 semester
+\item Taught 3 introductory algebra-based physics lab sections of 20 students each for 3 semesters and two summer section of 15 students
+\item Proctored and graded exams approximately monthly
+\item Ensured students followed principles of academic integrity
+\item Held office hours weekly, answering questions pertaining to my sections’ work and students’ work on Mastering Physics
+\item Graded homework weekly and maintained grades on Black Board
+\end{itemize}
+\phantom \\
+\phantom \\
+%
+%
+%
+%
+\begin{vwcol}[widths={0.8,0.2}, sep=.8cm, justify=flush, rule=0pt, indent=0em]
+\noindent \textbf{Physics Tutor (September 2011-May 2012)}
+\newpage
+\noindent \textbf{LC Student Support Services}
+\end{vwcol}
+\phantom \\
+\begin{itemize}
+\item Tutored a physics student with a learning disability on an as requested basis
+\item Provided guidance to the student in academic matters as a peer mentor as asked of me by the student
+\item Flexibly scheduled tutoring sessions around the student’s athletics and academic schedule
+\end{itemize}
+\phantom \\
+\phantom \\
+%
+%
+%
+%
+\begin{vwcol}[widths={0.8,0.2}, sep=.8cm, justify=flush, rule=0pt, indent=0em]
+\noindent \textbf{Physics Help Desk Tutor (August 2010-December 2010)}
+\newpage
+\noindent \textbf{LC Physics Dept}
+\end{vwcol}
+\phantom \\
+\begin{itemize}
+\item Assisted physics students with their homework and general physics questions on a weekly basis
+\item Led informal exam study sessions for introductory level students
+\item Conferred with faculty to determine how to best assist students in their learning
+\end{itemize}
+\phantom \\
+\phantom \\
+%
+%
+%
+%
+\par
+\phantom \\
+\phantom \\
+%---------------------------------------------------------------------------------%
+%---------------------------------------------------------------------------------%
+%---------------------------------------------------------------------------------%
+%-------------------   Industry Experience   ---------------------------%
+%---------------------------------------------------------------------------------%
+%---------------------------------------------------------------------------------%
+%---------------------------------------------------------------------------------%
+\noindent \textbf{INDUSTRY EXPERIENCE}:\\
+\begin{vwcol}[widths={0.8,0.2}, sep=.8cm, justify=flush, rule=0pt, indent=0em]
+\noindent \textbf{Information Technology Help Desk Technician (May 2015-July 2015)}
+\newpage
+\noindent \textbf{Pavelcomm}
+\end{vwcol}
+\phantom \\
+\begin{itemize}
+\item Diagnosed and corrected technical issues for client organizations
+\item Processed repairs of client machines
+\item Supervised proper backup of client resources
+\item Worked with team members to diagnose and correct network issues
+\end{itemize}
+\phantom \\
+\phantom \\
+%
+%
+%
+%
+\begin{vwcol}[widths={0.8,0.2}, sep=.8cm, justify=flush, rule=0pt, indent=0em]
+\noindent \textbf{Information Technology Assistant (July 2014-January 2015)}
+\newpage
+\noindent \textbf{Vancouver Bolt \& Supply}
+\end{vwcol}
+\phantom \\
+\begin{itemize}
+\item Planned and wrote multiple programs
+\item Searched for and identified flaws in network security
+\item Recovered data from failed storage
+\item Planned and implemented a new outside sales system (see industry projects)
+\item Worked with multiple databases
+\item Expanded physical network
+\end{itemize}
+\phantom \\
+\phantom \\
+%
+%
+%
+%
+\begin{vwcol}[widths={0.8,0.2}, sep=.8cm, justify=flush, rule=0pt, indent=0em]
+\noindent \textbf{Claims Analyst (June 2013-August 2013)}
+\newpage
+\noindent \textbf{Epiq Systems}
+\end{vwcol}
+\phantom \\
+\begin{itemize}
+\item Proficiently analyzed claims for class action lawsuits
+\item Verified validity of data provided
+\item Rectified errors in data
+\item Determined claimants' eligibility as class members
+\item Conducted research for large-scale projects
+\end{itemize}
+\phantom \\
+\phantom \\
+%
+%
+%
+%
+\par
+\phantom \\
+\phantom \\
+%-----------------------------------------------------------------------------------%
+%-----------------------------------------------------------------------------------%
+%-----------------------------------------------------------------------------------%
+%-------------------   Volunteer Experience   ---------------------------%
+%-----------------------------------------------------------------------------------%
+%-----------------------------------------------------------------------------------%
+%-----------------------------------------------------------------------------------%
+\noindent \textbf{VOLUNTEER EXPERIENCE}:\\
+\noindent \textbf{UMBC Graduate Student Association (GSA), Treasury Committee Chair)}
+\phantom \\
+\begin{itemize}
+\item Formed and chaired committee working on GSA budgetary and financial concerns
+\item Co-wrote new governing documents (constitution, bylaws, policies) for the GSA which were adopted by the GSA Senate
+\item Documented the goals and responsibilities of the Treasury Committee
+\item Proposed, collaboratively wrote, and presented various resolutions to the GSA Senate
+\end{itemize}
+\phantom \\
+\phantom \\
+%
+%
+%
+%
+\noindent \textbf{UMBC Graduate Student Association (GSA), Treasury Committee Chair)}
+\phantom \\
+\begin{itemize}
+\item Chaired committee advising the GSA Senate and GSA Executive Board on GSA research and travel grants
+\item Analyzed historical data on grants using R to gather to inform decisions
+\item Created visualizations of data on grants using R to communicate via a report written in LaTeX to the Senate and Executive Board positions held by the Grants Committee
+\end{itemize}
+\phantom \\
+\phantom \\
+%
+%
+%
+%
+\noindent \textbf{UMBC Graduate Student Association (GSA), Physics Department Senator (September 2016-Present)}
+\phantom \\
+\begin{itemize}
+\item Represented the physics department and its interests in the GSA
+\item Attended GSA senate meetings on a monthly basis
+\item Served on the Grants Committee working on projects such as investigating the possibility of an emergency loan fund for international students whose stipend cannot be immediately disbursed due to visa processing
+\end{itemize}
+\phantom \\
+\phantom \\
+%
+%
+%
+%
+\noindent \textbf{UMBC Relationship Violence Prevention Advocates, Advocate (August 2016-Present)}
+\phantom \\
+\begin{itemize}
+\item Participated in training on outreach and advocacy on the subject of relationship violence prevention
+\item Assisted in the organization of an outreach event on campus
+\item Discussed issues related to power based relationships with other advocates
+\end{itemize}
+\phantom \\
+\phantom \\
+%
+%
+%
+%
+\noindent \textbf{Lewis \& Clark College New Student Orientation, Management Team Leader (August 2010, August 2011)}
+\phantom \\
+\begin{itemize}
+\item Organized events for new college students to help facilitate transition to college life
+\item Oversaw delivery of new students’ possessions to their dorm rooms
+\item Cooperated with staff and other volunteers to run events
+\end{itemize}
+\phantom \\
+\phantom \\
+%
+%
+%
+%
+\noindent \textbf{Oregon Health and Science University Science Ambassadors, Student Director (July 2007-May 2009)}
+\phantom \\
+\begin{itemize}
+\item Created curricula and lesson plans for educating elementary school students
+\item Organized high school volunteers in mentoring and teaching elementary school students
+\item Organized presentations from university scientists to for both volunteers and students
+\end{itemize}
+\phantom \\
+\phantom \\
+%
+%
+%
+%
+\noindent \textbf{Oregon Health and Science University Science Ambassadors, Ambassador (October 2006-May 2007)}
+\phantom \\
+\begin{itemize}
+\item Mentored a fifth-grade student to communicate concepts in science and to enable them to learn about careers in science
+\item Participated in preparation for educational activities for elementary school students
+\item Helped with student’s absorption of information from various scientific presentations
+\end{itemize}
+\phantom \\
+\phantom \\
+%
+%
+%
+%
+\noindent \textbf{Oregon Museum of Science and Industry, Physics Lab Volunteer (September 2005-June 2007)}
+\phantom \\
+\begin{itemize}
+\item Demonstrated various physics experiments to patrons of the museum of all ages
+\item Supervised various independent hands-on activities available for all patrons
+\item Educated patrons on physical principles responsible for effects displayed in demonstration
+\end{itemize}
+\phantom \\
+\phantom \\
+%
+%
+%
+%
+%\bibliographystyle{apsrev}
+%\bibliography{PhysCitations}
+\end{document}
