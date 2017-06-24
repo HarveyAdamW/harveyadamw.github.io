@@ -18,3 +18,15 @@ img {
     text-shadow: 3px 2px black;
     font-size: 300%;
 }
+
+h2 {
+    position: absolute;
+    top: 75%;
+    left: 5%;
+}
+
+a {
+    position: absolute;
+    top: 80%;
+    left: 5%;
+}
