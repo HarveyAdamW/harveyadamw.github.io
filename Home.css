@@ -23,6 +23,7 @@ img {
     font-size: 3.5vw;
 }
 
+/*This is for links to important pages on the site.*/
 .links_block {
     position: absolute;
     top: 70%;
@@ -30,6 +31,35 @@ img {
     width: 15%;
     height: 40%;
     background-color: DarkGray;
+}
+
+/*This is the background for a picture of myself and a small blurb about myself under it.*/
+.profile_block {
+    position: absolute;
+    top: 70%;
+    right: 5%;
+    width: 15%;
+    height: 40%;
+    background-color: DarkGray;
+}
+
+.profile_pic_block {
+    position: absolute;
+    top: 5%;
+    width: 80%;
+    left: 10%;
+    border-color: #47476b;
+    border-style: solid;
+    border-width: 3%;
+}
+
+.profile_text {
+    position: absolute;
+    top: 55%;
+    left:5%;
+    font-size: 1.1vw;
+    font-style: normal;
+    font-weight: 100;
 }
 
 /*This is the text for important page links.*/
