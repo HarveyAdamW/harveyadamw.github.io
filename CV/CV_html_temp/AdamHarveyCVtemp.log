@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=latex 2017.4.4)  24 JUN 2017 10:43
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=latex 2017.4.4)  28 JUL 2017 15:15
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -904,37 +904,25 @@ LaTeX Info: Redefining \selectfont on input line 57.
  [1
 
 ] [2]
-LaTeX Font Info:    Try loading font information for U+msa on input line 72.
+LaTeX Font Info:    Try loading font information for U+msa on input line 71.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 72.
+LaTeX Font Info:    Try loading font information for U+msb on input line 71.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 102.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 101.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 102.
-Missing character: There is no â in font cmbx10!
-Missing character: There is no € in font cmbx10!
-Missing character: There is no “ in font cmbx10!
-Missing character: There is no â in font cmbx10!
-Missing character: There is no € in font cmbx10!
-Missing character: There is no “ in font cmbx10!
-Missing character: There is no â in font cmbx10!
-Missing character: There is no € in font cmbx10!
-Missing character: There is no “ in font cmbx10!
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 101.
  [3]
-Missing character: There is no â in font cmbx10!
-Missing character: There is no € in font cmbx10!
-Missing character: There is no “ in font cmbx10!
 Missing character: There is no â in font cmbx10!
 Missing character: There is no € in font cmbx10!
 Missing character: There is no “ in font cmbx10!
@@ -963,40 +951,40 @@ Missing character: There is no “ in font cmbx10!
 Missing character: There is no â in font cmbx10!
 Missing character: There is no € in font cmbx10!
 Missing character: There is no “ in font cmbx10!
-Missing character: There is no â in font cmr10!
-Missing character: There is no € in font cmr10!
-Missing character: There is no ™ in font cmr10!
-Missing character: There is no â in font cmr10!
-Missing character: There is no € in font cmr10!
-Missing character: There is no ™ in font cmr10!
  [5]
 Missing character: There is no â in font cmr10!
 Missing character: There is no € in font cmr10!
 Missing character: There is no ™ in font cmr10!
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no ™ in font cmr10!
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no ™ in font cmr10!
  [6]
-[7]
+[7] [8] [9]
 Missing character: There is no â in font cmr10!
 Missing character: There is no € in font cmr10!
 Missing character: There is no ™ in font cmr10!
- [8]
 Missing character: There is no â in font cmr10!
 Missing character: There is no € in font cmr10!
 Missing character: There is no ™ in font cmr10!
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 480.
- [9]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 480.
+ [10]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 666.
+ [11]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 666.
  (./AdamHarveyCVtemp.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 480.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 480.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 480.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 666.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 666.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 666.
  ) 
 Here is how much of TeX's memory you used:
- 11078 strings out of 493030
- 146876 string characters out of 6136261
- 369030 words of memory out of 5000000
- 14312 multiletter control sequences out of 15000+600000
+ 11081 strings out of 493030
+ 146902 string characters out of 6136261
+ 370030 words of memory out of 5000000
+ 14315 multiletter control sequences out of 15000+600000
  16155 words of font info for 60 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 37i,6n,35p,753b,506s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 37i,6n,35p,788b,506s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on AdamHarveyCVtemp.dvi (9 pages, 31792 bytes).
+Output written on AdamHarveyCVtemp.dvi (11 pages, 37960 bytes).
