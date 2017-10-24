@@ -26,7 +26,7 @@ img {
 /*This is for links to important pages on the site.*/
 .links_block {
     position: absolute;
-    top: 56.1%;
+    top: 56.2%;
     left: 5%;
     width: 20%;
     height: 444%;
@@ -36,7 +36,7 @@ img {
 /*This is the background for a picture of myself and a small blurb about myself under it.*/
 .profile_block {
     position: absolute;
-    top: 56.1%;
+    top: 56.2%;
     right: 5%;
     width: 20%;
     height: 444%;
@@ -45,7 +45,7 @@ img {
 
 .profile_pic_block {
     position: absolute;
-    top: 20px;
+    top: .5%;
     width: 80%;
     left: 10%;
     border-color: #47476b;
@@ -55,9 +55,9 @@ img {
 
 .profile_text {
     position: absolute;
-    top: 220px;
-    left: 10px;
-    right: 10px;
+    top: 6.3%;
+    left: 7%;
+    right: 7%;
     font-size: 1.1vw;
     font-style: normal;
     font-weight: 100;
@@ -66,14 +66,14 @@ img {
 /*This is the text for important page links.*/
 h2 {
     position: relative;
-    top: 20px;
+    top: .5%;
     left: 5%;
 }
 
 /*This is just the link to my CV.*/
 a {
     position: relative;
-    top: 30px;
+    top: .7%;
     left: 5%;
 }
 
