@@ -283,7 +283,8 @@ figure {
       min-height: 500px;
       z-index: 9;
       margin-left: 100%;
-      position: inherit; }
+      position: inherit;
+      width: 800px; }
       #colorlib-hero .flexslider .slider-text > .slider-text-inner {
         display: table-cell;
         vertical-align: middle;
