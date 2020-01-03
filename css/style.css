@@ -239,21 +239,24 @@ figure {
   width: 100%;
   float: left;
   margin-bottom: 10em;
-  clear: both; }
+  clear: both;
+  overflow: scroll; }
   #colorlib-hero .flexslider {
     border: none;
     z-index: 1;
     margin-bottom: 0; }
     #colorlib-hero .flexslider .slides {
       position: absolute;
-      overflow: visible;
+      overflow-y: visible;
       width: 500px; }
       #colorlib-hero .flexslider .slides li {
         background-repeat: no-repeat;
         background-size: cover;
-        background-position: bottom center;
-        min-height: 400px;
-        position: absolute; }
+        background-position: top center;
+        height: 100%;
+        min-height: 1000px;
+        position: absolute;
+        overflow: visible; }
     #colorlib-hero .flexslider .flex-control-nav {
       bottom: 20px;
       z-index: 1000;
