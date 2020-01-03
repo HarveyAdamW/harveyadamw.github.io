@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'icomoon';
-  src:  url('../fonts/icomoon/icomoon.eot?mkbmzl');
-  src:  url('../fonts/icomoon/icomoon.eot?mkbmzl#iefix') format('embedded-opentype'),
-    url('../fonts/icomoon/icomoon.ttf?mkbmzl') format('truetype'),
-    url('../fonts/icomoon/icomoon.woff?mkbmzl') format('woff'),
-    url('../fonts/icomoon/icomoon.svg?mkbmzl#icomoon') format('svg');
+  src:  url('../fonts/icomoon/icomoon.eot?g3jcsi');
+  src:  url('../fonts/icomoon/icomoon.eot?g3jcsi#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon/icomoon.ttf?g3jcsi') format('truetype'),
+    url('../fonts/icomoon/icomoon.woff?g3jcsi') format('woff'),
+    url('../fonts/icomoon/icomoon.svg?g3jcsi#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -18,64 +18,16 @@
   font-weight: normal;
   font-variant: normal;
   text-transform: none;
-  line-height: 0;
+  line-height: 1;
 
   /* Better Font Rendering =========== */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-.icon-orcid-logo-icon .path1:before {
-  content: "\eaf2";
-  color: rgb(166, 206, 57);
-}
-.icon-orcid-logo-icon .path2:before {
-  content: "\eaf3";
-  margin-left: 0;
-  color: rgb(255, 255, 255);
-}
-.icon-orcid-logo-icon .path3:before {
-  content: "\eaf4";
-  margin-left: 0;
-  color: rgb(255, 255, 255);
-}
-.icon-orcid-logo-icon .path4:before {
-  content: "\eaf5";
-  margin-left: 0;
-  color: rgb(255, 255, 255);
-}
 .icon-orcid-logo_monochrome:before {
   content: "\eaf1";
   color: #a6a8ab;
-}
-.icon-orcid-logo .path1:before {
-  content: "\e900";
-  color: rgb(166, 168, 171);
-}
-.icon-orcid-logo .path2:before {
-  content: "\e901";
-  margin-left: 0;
-  color: rgb(166, 168, 171);
-}
-.icon-orcid-logo .path3:before {
-  content: "\e902";
-  margin-left: 0;
-  color: rgb(166, 168, 171);
-}
-.icon-orcid-logo .path4:before {
-  content: "\e903";
-  margin-left: 0;
-  color: rgb(165, 205, 57);
-}
-.icon-orcid-logo .path5:before {
-  content: "\e904";
-  margin-left: 0;
-  color: rgb(165, 205, 57);
-}
-.icon-orcid-logo .path6:before {
-  content: "\e905";
-  margin-left: 0;
-  color: rgb(165, 205, 57);
 }
 .icon-home:before {
   content: "\e906";
