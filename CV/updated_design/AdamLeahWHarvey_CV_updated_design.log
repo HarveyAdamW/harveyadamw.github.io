@@ -1,4 +1,4 @@
-This is LuaTeX, Version 1.07.0 (TeX Live 2018)  (format=lualatex 2018.5.3)  1 JAN 2020 19:45
+This is LuaTeX, Version 1.07.0 (TeX Live 2018)  (format=lualatex 2018.5.3)  3 JAN 2020 15:35
  restricted system commands enabled.
 **AdamLeahWHarvey_CV_updated_design.tex
 (./AdamLeahWHarvey_CV_updated_design.tex
@@ -34,7 +34,7 @@ Inserting `luaotfload.aux.set_capheight' at position 3 in `luaotfload.patch_font
 '.
 Inserting `luaotfload.rewrite_fontname' at position 4 in `luaotfload.patch_font'
 .
-luaotfload | main : initialization completed in 0.087 seconds
+luaotfload | main : initialization completed in 0.078 seconds
 Babel <3.20> and hyphenation patterns for 1 language(s) loaded.
 (./yaac-another-awesome-cv.cls
 Document Class: yaac-another-awesome-cv 2019/09/10 v2.2.0 'YAAC: Another Awesome
@@ -1676,17 +1676,17 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 49.
 Here is how much of LuaTeX's memory you used:
  33169 strings out of 494413
  125007,953878 words of node,token memory allocated
- 55284 words of node memory still in use:
-   4 hlist, 1 vlist, 1 rule, 18 glue, 1 penalty, 7331 glyph, 1434 attribute, 74 
+ 56663 words of node memory still in use:
+   4 hlist, 1 vlist, 1 rule, 16 glue, 1 penalty, 7530 glyph, 1434 attribute, 74 
 glue_spec, 239 attribute_list, 1 write nodes
-   avail lists: 1:2,2:1945,3:259,4:59,5:817,6:90,7:3819,8:249,9:459,10:5,11:448
+   avail lists: 1:5,2:1945,3:259,4:59,5:817,6:90,7:3819,8:249,9:459,10:5,11:448
  36260 multiletter control sequences out of 65536+600000
  58 fonts using 12199871 bytes
  62i,11n,87p,962b,584s stack positions out of 5000i,500n,10000p,200000b,100000s
 <./fonts/SourceSansPro-LightIt.otf></usr/local/texlive/2018/texmf-dist/fonts/ope
 ntype/public/fontawesome5/FontAwesome5Free-Solid-900.otf><./fonts/SourceSansPro-
 Regular.otf><./fonts/SourceSansPro-Light.otf>
-Output written on AdamLeahWHarvey_CV_updated_design.pdf (4 pages, 37075 bytes).
+Output written on AdamLeahWHarvey_CV_updated_design.pdf (4 pages, 37267 bytes).
 
 PDF statistics: 122 PDF objects out of 1000 (max. 8388607)
  102 compressed objects within 2 object streams
